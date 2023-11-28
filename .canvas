@@ -1,6 +1,10 @@
 ---
 :lessons:
-- :id: 73915
-  :course_id: 3297
-  :canvas_url: https://learning.flatironschool.com/courses/3297/assignments/73915
+- :id: 223882
+  :course_id: 6638
+  :canvas_url: https://learning.flatironschool.com/courses/6638/assignments/223882
+  :type: assignment
+- :id: 263241
+  :course_id: 7550
+  :canvas_url: https://learning.flatironschool.com/courses/7550/assignments/263241
   :type: assignment

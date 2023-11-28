@@ -5,6 +5,7 @@
 - Define "first-class function"
 - Use inline functions
 - Use functions as return values
+- Define "higher-order function"
 
 ## Introduction
 
@@ -216,7 +217,17 @@ If you haven't been following along, it's vitally important that you go back and
 do so. First-class functions are one of JavaScript's most powerful features, but
 it takes some practice for them to sink in.
 
+## Higher-Order Functions
+
+A higher-order function is a function that can accept functions as arguments
+and/or return a function. You can read more about them [here][FCC HoF]
+and [here][Dmitri Pavlutin HoF].
+
 ## Instructions
+
+If you haven't already, **fork and clone** this lab into your local environment.
+Navigate into its directory in the terminal, then run `code .` to open the files
+in Visual Studio Code.
 
 To get more practice with first-class functions, this lesson has three tests to
 pass that require you to write the following functions in the `index.js` file:
@@ -237,8 +248,15 @@ pass that require you to write the following functions in the `index.js` file:
   - take no arguments
   - return an _anonymous function_
 
+When you're done, remember to commit and push your changes up to GitHub, then
+submit your work to Canvas using CodeGrade.
+
 ## Resources
 
 - [Wikipedia: First-class function](https://en.wikipedia.org/wiki/First-class_function)
-- [JavaScript is Sexy: Higher-order functions](http://javascriptissexy.com/understand-javascript-callback-functions-and-use-them/#more-1037)
+- [FreeCodeCamp: A Quick Intro to Higher-Order Functions in JavaScript][FCC HoF]
+- [Dmitri Pavlutin: What are Higher-Order Functions in JavaScript?][Dmitri Pavlutin HoF]
 - [MDN Function Expression (named vs anonymous functions)](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/function)
+
+[FCC HoF]: https://www.freecodecamp.org/news/a-quick-intro-to-higher-order-functions-in-javascript-1a014f89c6b/
+[Dmitri Pavlutin HoF]: https://dmitripavlutin.com/javascript-higher-order-functions
